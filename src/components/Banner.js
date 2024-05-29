@@ -42,7 +42,7 @@ const Banner = () => {
                             <option value="Select">Protect my family</option>
                             <option value="Select">Create wealth</option>
                             <option value="Select">Plans for childrens future</option>
-                            <option value="Select">plan for my retirement</option>
+                            <option value="Select">Plan for my retirement</option>
                             <option value="Select">have health Cover</option>
                         </select>
                     </div>

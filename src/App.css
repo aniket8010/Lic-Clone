@@ -12,24 +12,32 @@
 }
 .scroll_text span {
   display: inline-block;
-  animation: scrollText 10s linear infinite ;
-  animation-play-state: running; 
+  animation: scrollText 10s linear infinite;
+  animation-play-state: running;
 }
 .scroll_text:hover span {
-  animation-play-state: paused; 
+  animation-play-state: paused;
 }
 .pay-premium-button:hover {
-  background-color: #FCDC56 !important; /* Add !important to override Bootstrap styles */
+  background-color: #fcdc56 !important; /* Add !important to override Bootstrap styles */
   border-color: transparent !important; /* Add !important to override Bootstrap styles */
 }
 .login-button:hover {
-  background-color: #FCDC56 !important; /* Add !important to override Bootstrap styles */
+  background-color: #fcdc56 !important; /* Add !important to override Bootstrap styles */
   border-color: transparent !important; /* Add !important to override Bootstrap styles */
 }
-.control-dots{
+.control-dots {
   position: absolute;
   padding: 0 !important;
   margin: 0 !important;
   height: 20px;
   top: 90%;
+}
+.a_plan_box:hover {
+  color: #00417C !important;
+}
+.a_checkicon_size {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
 }

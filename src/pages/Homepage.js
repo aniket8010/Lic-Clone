@@ -1,6 +1,9 @@
 import React from 'react'
 import Banner from '../components/Banner'
+import LicPlans from '../components/LicPlans/LicPlans'
+import Expert from '../components/LicPlans/Expert'
 
+const plansButtons = ["Protect my Family", "Health Care", "Wealth Creation", "Chlidren's Future Planning", "Retirement Planning"]
 const Homepage = () => {
   return (
     <>
@@ -14,6 +17,10 @@ const Homepage = () => {
       <section>
         <div>
           <Banner />
+          <div className='flex container '>
+            <LicPlans plansButtons={plansButtons} />
+            <Expert />
+          </div>
         </div>
       </section>
     </>
